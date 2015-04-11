@@ -3,7 +3,7 @@
 
 void SpaceReplace(char* str)
 {
-	int lengthS=0,lengthF,com=0;
+	int lengthS=0,lengthF=0,com=0;
 	int space=0,i;
 	char *count,*p1,*p2;
 
