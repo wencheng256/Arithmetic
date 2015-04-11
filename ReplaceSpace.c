@@ -3,9 +3,13 @@
 
 void SpaceReplace(char* str)
 {
-	int lengthS=0,lengthF=0,com=0;
+	int lengthS=0;              //分开声明变量更加直观
+	int lengthF=0;
+	int com=0;
 	int space=0,i;
-	char *count,*p1,*p2;
+	char *count;
+	char *p1;
+	char *p2;
 
 	for(count=str;*count!='\0';count++)
 	{
@@ -23,12 +27,9 @@ void SpaceReplace(char* str)
 			p2--;
 		}else
 		{
-			*p1='0';
-			p1--;
-			*p1='2';
-			p1--;
-			*p1='%';
-			p1--;
+			*(p1--)='0';                //优化代码减少代码量
+			*(p1--)='2';
+			*(p1--)='%';
 			p2--;
 		}
 	}
