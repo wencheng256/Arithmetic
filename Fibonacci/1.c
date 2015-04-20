@@ -6,8 +6,8 @@ void fibonacci(int n)
     while(n>0)
     {
         c=a+b;
-        b=a;
-        a=c;
+        a=b;
+        b=c;
         printf("%d\n",c);
         n--;
     }
@@ -19,5 +19,5 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    fibonacci(10);
+    fibonacci(n);
 }
