@@ -2,7 +2,7 @@
 
 void fibonacci(int n)
 {
-    int a=0,b=1,c;
+    int a=0,b=1,c;                  //使用循环的方式效率比递归会高很多很多
     while(n>0)
     {
         c=a+b;

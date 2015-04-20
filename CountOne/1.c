@@ -10,8 +10,8 @@ int countOne(int num)
         {
             count++;
         }
-        s=s<<1;
-    }
+        s=s<<1;                             //位移是进行二进制运算最快的方法
+    }                                       //判断一个数是否为奇数就让这个数&1 如果不为0则为奇数
     return count;
 }
 
