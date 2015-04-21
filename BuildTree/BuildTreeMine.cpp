@@ -1,3 +1,7 @@
+/**
+*
+*
+**/
 #include"БъЭЗ.h"
 #include<cstdio>
 #include<cstdlib>

@@ -1,6 +1,9 @@
+/**
+*题目：经典的快排算法
+**/
 #include<stdio.h>
 
-void exchange(int *a,int *b)
+void exchange(int *a,int *b)                //负责交换两个指针指向的int值
 {
     int temp=*a;
     *a=*b;

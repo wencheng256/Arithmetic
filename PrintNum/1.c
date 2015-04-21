@@ -1,3 +1,6 @@
+/**
+*题目：输入数字n，按顺序打印出从1到最大的n位十进制数。比如输入3则打印1,2,3直到三位数中最大的999
+**/
 #include<stdio.h>
 
 void printNum(int num,int length,int* arr)             //大数问题 从1打印数字直到N位数中最大的一个数

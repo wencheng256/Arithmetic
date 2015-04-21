@@ -1,3 +1,6 @@
+/**
+*尽量高效的打印出前N个斐波那契数
+*/
 #include<stdio.h>
 
 void fibonacci(int n)
